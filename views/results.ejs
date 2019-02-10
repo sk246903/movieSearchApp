@@ -1,0 +1,9 @@
+<% include style/top.ejs %>
+
+<% for(var i =0;i<data.Search.length;i++){ %>
+     <li> <%= data.Search[i].Title %> - <%= data.Search.Year %></li> 
+<% } %>
+
+<a href="\">Search Again</a>
+
+<% include style/bottom.ejs %>
